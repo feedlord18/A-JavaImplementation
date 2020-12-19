@@ -1,0 +1,16 @@
+printState
+move up
+printState
+move down
+printState
+move left
+printState
+move right
+printState
+randomizeState 1000
+printState
+maxNodes 10000
+setState 725 6b1 384
+solve A-star h1
+solve A-star h2
+solve beam 5
